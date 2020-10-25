@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:restaurant_webapp/Screens/Home/home_screen.dart';
-import 'constant.dart';
+import 'package:restaurant_webapp/constant.dart';
 
 void main() {
   runApp(MyApp());
