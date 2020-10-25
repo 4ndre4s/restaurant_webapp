@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:restaurant_webapp/Components/default_button.dart';
-import 'package:restaurant_webapp/constant.dart';
+import 'package:restaurant_webapp/Screens/Home/Components/menu_item.dart';
 
 class RestaurantAppBar extends StatelessWidget {
   @override
@@ -51,32 +51,6 @@ class RestaurantAppBar extends StatelessWidget {
         ),
         DefaultButton(text: "Get Started", onPress: () {})
       ]),
-    );
-  }
-}
-
-class MenuItem extends StatelessWidget {
-  final String title;
-  final Function onPress;
-
-  const MenuItem({
-    Key key,
-    this.title,
-    this.onPress,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return InkWell(
-      onTap: onPress,
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 15.0),
-        child: Text(
-          title.toUpperCase(),
-          style: TextStyle(
-              color: kTextColor.withOpacity(0.3), fontWeight: FontWeight.bold),
-        ),
-      ),
     );
   }
 }
