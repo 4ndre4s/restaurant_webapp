@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:restaurant_webapp/Components/default_button.dart';
-import 'file:///C:/Users/aph/IdeaProjects/restaurant_webapp/lib/constant.dart';
+import 'package:restaurant_webapp/constant.dart';
 
 class RestaurantAppBar extends StatelessWidget {
   @override

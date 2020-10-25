@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'file:///C:/Users/aph/IdeaProjects/restaurant_webapp/lib/constant.dart';
+import 'package:restaurant_webapp/constant.dart';
 
 class Body extends StatelessWidget {
   @override
