@@ -1,6 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:restaurant_webapp/Screens/constant.dart';
+import 'file:///C:/Users/aph/IdeaProjects/restaurant_webapp/lib/constant.dart';
 
 class Body extends StatelessWidget {
   @override
